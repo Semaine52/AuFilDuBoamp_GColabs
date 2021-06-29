@@ -1,0 +1,3 @@
+text.value
+b = slider.value
+c = globals()[f'df_boamp_{b}']

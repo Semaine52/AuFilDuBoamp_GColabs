@@ -1,0 +1,59 @@
+----
+{{«Au plus tard le 1er octobre 2018, l'acheteur offre, sur son profil d'acheteur, un accès libre, direct et complet aux données essentielles des marchés publics répondant à un besoin dont la valeur est égale ou supérieure à 25 000 euros HT, à l'exception des informations dont la divulgation serait contraire à l'ordre public.»}}. (Source : «Décret n° 2016-360 du 25 mars 2016 relatif aux marchés publics» : [->https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000034416864&cidTexte=LEGITEXT000032299346&dateTexte=20181028]
+----
+
+<h2>{{Projet Semaine52}} d'organisation du travail et de l'entreprise pour une veille des données de marchés publics /</h2>
+
+{{Semaine52Lab veille à ce jour sur 147 813 annonces parues au Bulletin officiel des avis de marchés publics (BOAMP) depuis le 1er janvier 2018 à travers sa nouvelle solution construite autour de JupyterLab.}}
+[Tableau des annonces parues au BOAMP le LUNDI 10 DÉCEMBRE 2018 (cliquer ici pour exécuter ce Notebook sur Binder / Semaine52Lab + Notebook 884)<media2855|insert|center>|->https://mybinder.org/v2/gh/Semaine52/Semaine52Lab-Marches-Publics-et-Data-Mining/master?urlpath=lab/]
+
+L'utilisation des notebooks Jupyter se généralise, notamment dans les universités, les prépas et les centres de recherche, compte tenu de la possibilité qu'ils offrent de combiner dans le même document textes, visualisations et lignes de code. Le tout ne nécessite qu'un simple navigateur web pour fonctionner et être partagé.
+
+Par ailleurs, notre travail a été rendu possible par la mise à disposition de nouvelles interfaces de programmation (API) par la Direction de l'information légale et administrative (DILA) en 2017: ([->http://api.dila.fr/opendata/swagger-ui.html#/API_Boamp]). 
+Ces nouveaux outils ont été complétés par le développement de l'OpenData, rendu progressivement obligatoire pour les acteurs publics (Loi Lemaire) : [->https://www.data.gouv.fr/fr/datasets/boamp/] et [->https://www.data.gouv.fr/fr/datasets/api-boamp-beta/]
+[Visualisation du décompte des occurrences d'utilisation de chaque libelle-descripteur au BOAMP en octobre 2018 (cliquer ici pour exécuter ce Notebook sur Binder / Semaine52Lab + Notebook 883)<media2856|insert|center>|->https://mybinder.org/v2/gh/Semaine52/Semaine52Lab-Marches-Publics-et-Data-Mining/master?urlpath=lab/]
+{Illustrations: l'environnement exécutable de collecte, analyse et visualisation des données de marchés publics «Semaine52Lab». (Cliquer sur une image pour s'y rendre.)} 
+
+NB / Semaine52Lab fonctionne sur tous les navigateurs web tels Internet Explorer, Edge, Chrome, Firefox, Safari ou Opera grâce à la technologie MyBinder.org développée pour rendre possible le travail sur Notebook Jupyter depuis n'importe quel terminal (smartphone, tablette, ordinateur) connecté à  Internet.
+----
+{{► ► Mises à jour de la nuit}} :
+
+{{307 annonces}} ont été publiées au BOAMP le {{LUNDI 10 DÉCEMBRE 2018}} par les acheteurs publics.
+Elles sont à retrouver en tableau de donnée abrégé dans le Notebook Jupyter {exécutable} N°884 de [Semaine52Lab - cliquez ici pour le rejoindre (annonces classées par code postal - liens directs inclus - cf. illustration plus-haut)|->https://mybinder.org/v2/gh/Semaine52/Semaine52Lab-Marches-Publics-et-Data-Mining/master?urlpath=lab/].
+
+{{Astuce}} : attendez que Binder ait fini de «tourner» avant de lancer le notebook...
+
+{{PUB!}} Si vous souhaitez recevoir par mail des dataframes taillées sur-mesure pour les faire {{fonctionner ensuite directement sur votre navigateur web}} en les chargeant  sur Semaine52Lab, rendez-vous à l'onglet [«Contact»|->https://www.semaine52.com/jean-marie-falvet]ou adressez-nous un courriel à cette adresse : </br>[Semaine52@gmail.com (cliquer ici pour un envoi rapide)|->mailto:Semaine52@gmail.com?subject=S52_com].
+
+----
+
+<h2>Le Bloc-Notes de Semaine52.com / </h2>
+
+- 1 / Cliquer sur le lien ci-dessous pour découvrir le schéma d'une annonce au format d'origine (XML v230 - Formation professionnelle - Mayotte - octobre 2018) : [->http://api.dila.fr/opendata/api-boamp/annonces/v230/18-142602]
+
+
+- 2 / Le moteur de recherche de BOAMP.fr est très suffisant si on ne souhaite pas se lancer dans l'analyse de données ou la Data Visualisation. De plus ce site est une mine d'informations pour celles et ceux qui veulent en savoir plus sur les opportunités de business offertes par la commande publique: [->https://www.boamp.fr/]
+
+- 3 / À compter du 1er janvier 2019, la transmission des factures sous forme dématérialisée sur le portail Chorus Pro ([->https://communaute.chorus-pro.gouv.fr/]) devient obligatoire pour les petites et moyennes entreprises (10 à 250 salariés) fournisseurs du secteur public (État, collectivités locales, hôpitaux, établissements publics, etc.). (Source: {direction générale des Finances publiques}. À suivre sur Twitter ► [->https://twitter.com/@dgfip_officiel].
+
+- 4 / Le professionnel pourra aussi se référer à la fiche pratique de la DILA : «Contenu d'un avis de marché public» : [->https://www.service-public.fr/professionnels-entreprises/vosdroits/F32178]
+----
+<h2>Veilles Twitter et Web des territoires, des ambassades et des institutions (inter)nationales /</h2>
+
+<center><departements|redim=1|aff_region=1></center>
+----
+<center><veillemondecarto|></center>
+----
+<iframe width="755" height="400" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"src="https://www.semaine52.com/IMG/html/institutions_francaises_carte_des_notebooks_jupyter_bulletins_de_veilles_web_twitter_data.html"></iframe>
+
+
+&infin; <a href="https://www.semaine52.com/IMG/html/institutions_francaises_carte_des_notebooks_jupyter_bulletins_de_veilles_web_twitter_data.html"> [PLEIN ÉCRAN ICI. Cliquez ensuite sur une vignette pour lire les derniers tweets de l'institution concernée (votre navigateur doit disposer de la bonne permission, sinon ça marche pas :)) ]</a>
+
+
+----
+Au hasard ...
+
+<tableaudebord|>
+
+
+
